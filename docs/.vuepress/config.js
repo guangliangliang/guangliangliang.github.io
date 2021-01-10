@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @Version: 1.0
+ * @Autor: unicom
+ * @Date: 2021-01-10 15:40:25
+ * @LastEditors: unicom
+ * @LastEditTime: 2021-01-10 18:08:38
+ */
 const path = require('path')
 const nav = require('./config/nav/')
 const sidebar = require('./config/sidebar/')
@@ -5,8 +13,8 @@ const plugins = require('./config/plugins/')
 
 module.exports = {
   // dest: 'gb-pages',//打包目录
-  base: '/znote/',
-  title: "znote",
+  base: '/vuepress-blog/',
+  title: "vuepress-blog",
   description: '荷尽已无擎雨盖，菊残犹有傲霜枝。',
   head: [
     ['link', {

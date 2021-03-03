@@ -14,12 +14,12 @@ const plugins = require('./config/plugins/')
 module.exports = {
   // dest: 'gb-pages',//打包目录
   base: '/vuepress-blog/',
-  title: "vuepress-blog",
-  description: '荷尽已无擎雨盖，菊残犹有傲霜枝。',
+  title: "明月后",
+  description: '三更灯火五更鸡,正是男儿读书时。',
   head: [
     ['link', {
       rel: 'icon',
-      href: 'https://infinitypro-img.infinitynewtab.com/custom-icon/8001de1jd3n68lbfnxxt564xvb0vl5.png?imageMogr2/thumbnail/240x/format/webp/blur/1x0/quality/100|imageslim'
+      href: 'https://gitee.com/guangliangliang/images/raw/master/other/moon.png'
     }],
     ['meta', {
       name: 'viewport',
@@ -36,7 +36,6 @@ module.exports = {
       "src": "/js/MouseClickEffect.js"
     }]
   ],
-
   //主题配置
   theme: 'reco',
   themeConfig: {
@@ -63,13 +62,13 @@ module.exports = {
     lastUpdated: true,
     lastUpdated: '上次更新', // string | boolean
     // 作者
-    author: 'zhāngpéngjūn',
+    author: '明月后',
     // 备案号
-    record: '京ICP备17067634号-1',
+    record: '',
     // 项目开始时间
     startYear: '2019',
     //git地址
-    repo: 'zpj80231/znote',
+    repo: 'guangliangliang/vuepress-blog',
     // 如果你的文档不在仓库的根部
     docsDir: 'docs',
     // 可选，默认为 master
@@ -90,5 +89,4 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-
 }

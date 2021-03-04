@@ -1,6 +1,8 @@
 <template>
   <div class="home">
     <div class="hero">
+      <Clock />
+      <Moon />
       <ModuleTransition>
         <img
           v-if="recoShowModule && $frontmatter.heroImage"

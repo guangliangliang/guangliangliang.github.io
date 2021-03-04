@@ -5,12 +5,12 @@ sidebar: false
 isShowComments: true
 ---
 
-<p align="center"><img style="border-radius:41%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/vuepress/head-fish.jpg')" alt="znote-head" width=160></p>
+<p align="center"><img style="border-radius:50%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/vuepress/head-fish.jpg')" alt="znote-head" width=160></p>
 <p align="center" style="margin-top: -15px;">
   <a href="https://gitee.com/guangliangliang" class="zi zi_textbook"></a> 
   <a href="mailto:17600498920@163.com" class="zi zi_envelope"></a> 
   <a href="https://github.com/guangliangliang" class="zi zi_tmGithub"></a>
-  <a href="https://twitter.com/zpj80231" class="zi zi_tmTwitter"></a>
+  <a href="https://twitter.com/guanglianglian1" class="zi zi_tmTwitter"></a>
   <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2718889614&website=www.oicqzone.com" class="zi zi_tmQq"></a>
 </p>
 
@@ -31,9 +31,7 @@ isShowComments: true
 
 ### 成熟标志
 
-- 爱您：[XW](/view/love.html)
-- 会扔、敢买、能赚、懂爱！
-- 自信乐观，勇于担当，明白责任的意义！
+- 爱你：[XW](/view/love.html)
 
 ### 参与社区
 

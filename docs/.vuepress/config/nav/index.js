@@ -10,7 +10,7 @@ module.exports = [
                     text: 'My Project',
                     link: '/other/project',
                 }]
-            }, {
+            }/* , {
                 text: 'Common sites🎈',
                 items: [{
                     text: '友 链',
@@ -43,7 +43,7 @@ module.exports = [
                     text: '编程语言排行榜',
                     link: 'https://www.tiobe.com/tiobe-index/',
                 }]
-            },]
+            }, */]
     },
     {text: '时间线', link: '/timeline/', icon: 'reco-date'},
     {text: '关于我', link: '/about/', icon: 'reco-message'}

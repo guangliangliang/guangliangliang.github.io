@@ -6,18 +6,18 @@ heroImageStyle: {
   maxWidth: '300px',
   width: '100%',
   display: block,
-  margin: 'auto',
+  margin: '100px auto 30px',
   border: '1px dashed #000',
   box-shadow: '8px 8px 20px #022',
   borderRadius: '10px',
 }
 isShowTitleInHome: true
-actionText: '勇往直前'
+actionText: '文章集'
 actionLink: /views/
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-<Clock/>
+<Peacock/>
 
 
 <script>
@@ -116,10 +116,10 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 .wrap {
   transition: all 2s;
 }
-.clock:hover {
+/* .clock:hover {
   transform: scale(0.55) !important;
   transition: all 2s;
-}
+} */
 .wrap:hover {
   transform: scale(1.05) !important;
   transition: all 2s;

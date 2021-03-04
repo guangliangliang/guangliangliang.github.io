@@ -13,9 +13,9 @@ const plugins = require('./config/plugins/')
 
 module.exports = {
   // dest: 'gb-pages',//打包目录
-  base: '/vuepress-blog/',
+  base: '/gll/',
   title: "明月后",
-  description: '三更灯火五更鸡,正是男儿读书时。',
+  description: '黑发不知勤学早，白首方悔读书迟。',
   head: [
     ['link', {
       rel: 'icon',
@@ -66,7 +66,7 @@ module.exports = {
     // 备案号
     record: '',
     // 项目开始时间
-    startYear: '2019',
+    startYear: '2021',
     //git地址
     repo: 'guangliangliang/vuepress-blog',
     // 如果你的文档不在仓库的根部

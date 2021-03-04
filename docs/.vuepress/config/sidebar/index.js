@@ -3,31 +3,34 @@ module.exports = {
     '/views/': [
         '',
         {
-            title: '知识晶体 Q&A',
-            collapsable: true,
-            children: [
-                'qaq/sum_db_001'
-            ]
-        },
-        {
             title: '规范 Standard',
             collapsable: true,
             children: [
-                'specification/提交规范',
+                'specification/添加commit规范',
+                'specification/git命令汇总table',
             ]
         },
         {
             title: '前端 Front-end',
             collapsable: true,
             children: [
-                'frontend/EChartsStudy'
+                'frontend/react/antd table 通过后台接口进行排序日期'
             ]
         },
         {
             title: '后端 Back-end',
             collapsable: true,
             children: [
-                'backend/annotationLog',
+                'backend/test',
+            ]
+        },
+        {
+            title: '插件推荐 Recommend',
+            collapsable: true,
+            children: [
+                'recommend/plugins/google必备插件',
+                'recommend/plugins/Tampermonkey脚本推荐',
+                'recommend/plugins/vscode必备插件',
             ]
         },
         {

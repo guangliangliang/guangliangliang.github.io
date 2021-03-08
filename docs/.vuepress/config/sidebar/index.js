@@ -14,7 +14,8 @@ module.exports = {
             title: '前端 Front-end',
             collapsable: true,
             children: [
-                'frontend/react/antd table 通过后台接口进行排序日期'
+                'frontend/react/antd table 通过后台接口进行排序日期',
+                'frontend/react/antd 4.0 封装通用form组件'
             ]
         },
         {

@@ -13,7 +13,7 @@ const plugins = require('./config/plugins/')
 
 module.exports = {
   // dest: 'gb-pages',//打包目录
-  base: '/vuepress-blog/',
+  base: '/',
   title: "明月后",
   description: '黑发不知勤学早，白首方悔读书迟。',
   head: [

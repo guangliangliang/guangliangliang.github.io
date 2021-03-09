@@ -14,14 +14,14 @@
    <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="CC4.0 BY-SA" src="https://img.shields.io/static/v1?label=CC%20%204.0&message=BY-SA&color=yellow&style=flat-square"></a>
    <a href="LICENSE"><img alt="LICENSE" src="https://img.shields.io/badge/License-MIT-orange?style=flat-square"></a>
    <br/>
-   <a href="http://guangliangliang.gitee.io/vuepress-blog/"><img alt="znote site" src="https://img.shields.io/badge/gll-pages-a06bc1?style=flat-square&logo=zulip"></a>
+   <a href="http://guangliangliang.gitee.io"><img alt="znote site" src="https://img.shields.io/badge/gll-pages-a06bc1?style=flat-square&logo=zulip"></a>
 </p>
 
 
 
 - 本仓库代码使用 [MIT](https://github.com/SigureMo/notev/blob/master/LICENSE) 协议进行开源，但是全部文档内容使用 [CC 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) 协议进行发布
 - 已全局适配`手机模式`和`暗黑模式（iOS自适应）`请自行体验
-- 国内访问：[http://guangliangliang.gitee.io/vuepress-blog/](http://guangliangliang.gitee.io/vuepress-blog/) 速度加载会快一点
+- 国内访问：[http://guangliangliang.gitee.io](http://guangliangliang.gitee.io) 速度加载会快一点
 
 ![](/docs/.vuepress/public/vuepress/gll.png)
 

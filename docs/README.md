@@ -18,11 +18,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
 <Peacock/>
-
-
-<script>
-  
-</script>
+<Cat/>
 
 <style lang="stylus">
 .home .content__default:not(.custom) {

@@ -4,9 +4,34 @@
     :class="pageClasses"
     @touchstart="onTouchStart"
     @touchend="onTouchEnd">
+    <KanBanNiang
+        :theme="['koharu','blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'izumi', 'shizuku', 'wanko', 'miku', 'z16']"
+        :clean="true"
+        :messages="{
+          welcome: '欢迎来到 ' + $site.title,
+          home: '心里的花，我想要带你回家。',
+          theme: '好吧，希望你能喜欢我的其他小伙伴。',
+          close: '你知道我喜欢吃什么吗？痴痴地望着你。'
+        }"
+        :messageStyle="{
+            right: '68px',
+            bottom: '190px'
+        }"
+        :modelStyle="{
+          right: '90px',
+          bottom: '-20px',
+          opacity: '0.9'
+        }"
+        :btnStyle="{
+          right: '90px',
+          bottom: '40px',
+        }"
+        :width="150"
+        :height="220"
+      />
     <div v-if="!absoluteEncryption">
       <transition name="fade">
-        <LoadingPage v-show="firstLoad" class="loading-wrapper" />
+        <NewLoadingPage v-show="firstLoad" class="loading-wrapper" />
       </transition>
       <transition name="fade">
         <Password v-show="!isHasKey" class="password-wrapper-out" key="out" />
@@ -40,7 +65,7 @@
     </div>
     <div v-else>
       <transition name="fade">
-        <LoadingPage v-if="firstLoad" />
+        <NewLoadingPage v-if="firstLoad" />
         <Password v-else-if="!isHasKey" />
         <div v-else>
           <Navbar
@@ -77,13 +102,13 @@
 import md5 from 'md5'
 import Navbar from '@theme/components/Navbar'
 import Sidebar from '@theme/components/Sidebar'
+import NewLoadingPage from '@theme/components/NewLoadingPage'
 import { resolveSidebarItems } from '@theme/helpers/utils'
 import Password from '@theme/components/Password'
 import { setTimeout } from 'timers'
 
 export default {
-  components: { Sidebar, Navbar, Password },
-
+  components: { Sidebar, Navbar, Password , NewLoadingPage},
   props: {
     sidebar: {
       type: Boolean,

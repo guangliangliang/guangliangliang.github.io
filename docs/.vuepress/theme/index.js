@@ -22,6 +22,7 @@ module.exports = (options, ctx) => ({
     '@vuepress-reco/back-to-top',
     '@vuepress-reco/extract-code',
     '@vuepress-reco/loading-page',
+    '@vuepress-reco/kan-ban-niang',
     '@vuepress-reco/pagation',
     '@vuepress-reco/comments',
     '@vuepress/active-header-links',

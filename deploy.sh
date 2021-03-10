@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 # https://github.com/guangliangliang/vue-admin
 # 提交到 https://github.com:guangliangliang/vue-admin 项目的 gh-pages 分支
-git push -f git@github.com:guangliangliang/vuepress-blog.git master:gh-pages
+git push -f git@github.com:guangliangliang/guangliangliang.github.io.git master:gh-pages
 
 cd -

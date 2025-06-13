@@ -29,10 +29,6 @@ isShowComments: true
 
 - 一个喜欢敲代码,喜欢研究新的技术,沉默寡语,乐观,积极向上,执着稳重,喜爱规划,做事沉稳的人！
 
-### 成熟标志
-
-- 爱你：[XW](/view/love.html)
-
 ### 参与社区
 
 - 博客：[https://gitee.com/guangliangliang](https://gitee.com/guangliangliang)
